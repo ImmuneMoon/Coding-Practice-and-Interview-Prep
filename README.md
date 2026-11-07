@@ -3,7 +3,6 @@
 ![Level: Beginner to Job Seeker](https://img.shields.io/badge/Level-Beginner%20to%20Job%20Seeker-2ea44f)
 ![Covers: Challenge sites, LeetCode, behavioral interviews](https://img.shields.io/badge/Covers-Challenges%20%7C%20LeetCode%20%7C%20Behavioral-1f6feb)
 ![Free options first](https://img.shields.io/badge/Resources-Free%20options%20first-6f42c1)
-![Checked November 2026](https://img.shields.io/badge/Checked-Nov%202026-2ea44f)
 [![Last updated](https://img.shields.io/github/last-commit/ImmuneMoon/Coding-Practice-and-Interview-Prep?label=updated)](https://github.com/ImmuneMoon/Coding-Practice-and-Interview-Prep/commits/main)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](LICENSE)
 

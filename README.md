@@ -18,10 +18,8 @@
 - solving a problem out loud, and answering behavioral questions with the STAR method;
 - how to tell when you're ready to start applying.
 
-It started as a set of community notes written in 2022 and 2023, and has been updated and checked against each site in November 2026.
-
 ## ⚠️ Important Notes
-* **Every site here was checked in November 2026,** but prices and free tiers change often. Check a site's own pricing page before you pay for anything.
+* **Prices and free tiers change often.** Check a site's own pricing page before you pay for anything.
 * **You don't need to pay to get good.** Every topic in this guide has a free option. Paid plans mostly add convenience, such as more videos, company-specific question lists or design files.
 * **None of these sites or creators are affiliated with this guide.** Videos are linked and credited to their creators. Watch them on their own channels.
 * **Interview styles vary a lot by company.** Many web development jobs use take-home projects or practical tasks rather than algorithm puzzles. Read each job posting, and ask the recruiter what the interview involves.
@@ -41,8 +39,6 @@ This guide works alongside these others:
 ---
 
 <!-- guide:start -->
-
-*Sites, free tiers and prices were checked in November 2026. They change, so confirm them on each site. Each video's summary was also rechecked against what the video actually says.*
 
 ## Contents
 
@@ -96,16 +92,11 @@ The first group is for short coding exercises. The second is for building comple
 | **[Codementor DevProjects](https://www.codementor.io/projects)** | Project ideas sorted by type (web, mobile, automation) and difficulty | JavaScript, Python, React, Node.js, Swift and more | Free community | You can view other people's solutions and ask mentors for help |
 | **[Pygame](https://www.pygame.org/docs/)** | Making 2D games in Python, which is a fun way to practice loops, events and objects | Python | Free and open source | Start with Clear Code's [The ultimate introduction to Pygame](https://www.youtube.com/watch?v=AY9MnQ4x3zk). See the note below |
 
-> **About Pygame.** In November 2026, pygame.org's front page returned a server error (502) several times, though its [documentation](https://www.pygame.org/docs/) still loaded. The original `pygame` package was last released in September 2024 (version 2.6.1). Its former core developers now maintain a fork, **pygame-ce** (Community Edition), which releases regularly (2.5.8 in August 2026). It installs with `pip install pygame-ce`, and its docs are at [pyga.me](https://pyga.me/). Either way, install it into a virtual environment, as shown in the [Python and Node Tool Environments](https://github.com/ImmuneMoon/Python-and-Node-Tool-Environments#5-create-a-virtual-environment) guide, and check the exact package name before you install (see [Safer Package Installs with npm and pip](https://github.com/ImmuneMoon/Safer-Package-Installs-npm-and-pip#11-spot-look-alike-package-names)). For engines, game jams and shipping a whole game, see [Learn Game Development](https://github.com/ImmuneMoon/Learn-Game-Development).
+> **About Pygame.** If pygame.org's front page doesn't load, its [documentation](https://www.pygame.org/docs/) usually still does. The original `pygame` package was last released in September 2024 (version 2.6.1). Its former core developers now maintain a fork, **pygame-ce** (Community Edition), which releases regularly (2.5.8 in August 2026). It installs with `pip install pygame-ce`, and its docs are at [pyga.me](https://pyga.me/). Either way, install it into a virtual environment, as shown in the [Python and Node Tool Environments](https://github.com/ImmuneMoon/Python-and-Node-Tool-Environments#5-create-a-virtual-environment) guide, and check the exact package name before you install (see [Safer Package Installs with npm and pip](https://github.com/ImmuneMoon/Safer-Package-Installs-npm-and-pip#11-spot-look-alike-package-names)). For engines, game jams and shipping a whole game, see [Learn Game Development](https://github.com/ImmuneMoon/Learn-Game-Development).
 
 > **About Clear Code's Pygame course.** It's a 3 hour 48 minute build of a small endless-runner game, and it assumes you already know basic Python functions and simple classes. Clear Code says the game itself is just a vehicle for learning every major part of Pygame. Jump to: [how games work](https://youtu.be/AY9MnQ4x3zk?t=60) · [frame rate](https://youtu.be/AY9MnQ4x3zk?t=1091) · [rectangles and collisions](https://youtu.be/AY9MnQ4x3zk?t=3824) · [player input](https://youtu.be/AY9MnQ4x3zk?t=5397) · [jumping and gravity](https://youtu.be/AY9MnQ4x3zk?t=5762) · [score](https://youtu.be/AY9MnQ4x3zk?t=6918) · [timers](https://youtu.be/AY9MnQ4x3zk?t=8691) · [animation](https://youtu.be/AY9MnQ4x3zk?t=10210) · [sprite classes](https://youtu.be/AY9MnQ4x3zk?t=11423) · [sound](https://youtu.be/AY9MnQ4x3zk?t=13378). The video installs the original `pygame` package. `pygame-ce` keeps the same `import pygame`, so the course code should mostly work on it too, but don't install both in one environment: pygame-ce's release notes say to run `pip uninstall pygame` first.
 
-> **A practice site from a reel.** The original notes saved a Facebook reel by **Matty McTech** ("Want to learn how to code?") about a free, open source site where you pick a language such as JavaScript, C# or Python and work along a practice path from easy to expert. The site on screen is **Exercism** (above): the reel walks through its language tracks, the Python track's concept map and its donation page. Facebook needs a login, so the reel isn't linked; the details in the table come from Exercism's own pages.
-
-**Changes since the original notes:**
-* **devChallenges** was noted for its certificates. Its home page no longer mentions them, so check before counting on one.
-* **Frontend Mentor** now includes AI code review, and its design files are a Pro feature.
-* **Codewars** is now owned by Andela, and its free tier is unchanged.
+> **A practice site from a reel.** **Matty McTech**'s Facebook reel "Want to learn how to code?" shows a free, open source site where you pick a language such as JavaScript, C# or Python and work along a practice path from easy to expert. The site is **Exercism** (above): the reel walks through its language tracks, the Python track's concept map and its donation page.
 
 ## 3. The Kinds of Technical Interviews
 "Technical interview" covers several different things. Knowing which one you're facing tells you what to practice.
@@ -134,9 +125,6 @@ The first group is for short coding exercises. The second is for building comple
 | **[Interview Cake](https://www.interviewcake.com/)** | Lessons that teach a way of thinking through problems, with step-by-step hints when you're stuck | A free 7-day email course and a free weekly problem. The full course is paid |
 | **[Aced](https://www.aced.io/practice)** (formerly Exponent, which took over Pramp) | Free peer-to-peer mock interviews: you take turns interviewing another candidate | Free, with a monthly limit on sessions. Feedback and transcripts are paid |
 | **[CS50: How to Prepare for Technical Interviews](https://cs50.harvard.edu/x/2022/prepare/)** | A 2022 Harvard CS50 workshop led by Tommy MacWilliam, with slides and video, on resumes and interview strategy | Free. It's from CS50x 2022, so the page points to the newer course, but the advice still applies |
-| **[Codebasil](https://codebasil.com/)** | Interview practice questions (a 2021 review describes JavaScript, Python, C++ and Java, with free and paid plans) | Unconfirmed. The site still loads, but we couldn't confirm what it offers now |
-
-> **Gainlo has gone.** The original notes recommended Gainlo for mock interviews. In November 2026, its domain shows unrelated gambling content, so it has been removed. Use interviewing.io, Tech Mock Interview or Aced instead.
 
 **Two good videos to start with:**
 * NeetCode, [How I Got Good at Coding Interviews](https://www.youtube.com/watch?v=SVvr3ZjtjI8): how to study patterns instead of memorizing code (Section 5).
@@ -153,7 +141,7 @@ PIRATE KING's [How to Use LeetCode Effectively](https://www.youtube.com/watch?v=
 4. **Practice with a plan:** leave Hard until you're ready, give yourself about 30 minutes on an Easy and an hour on a Medium before reading the solution, learn from the solutions and the **Discuss** tab (including how to make an accepted answer faster), and revisit any problem you needed help with.
 5. **Before a specific interview,** practice that company's tagged questions, sorted by how often they've been asked. Three of the seven questions in his Microsoft interviews were on the list.
 
-> **Our take on step 1:** at about $35 a month or $159 a year (as reported in late 2026; check LeetCode's own page), Premium is worth it mainly for step 5, when you have a real interview booked. Steps 2 to 4 work on the free tier, and NeetCode's free roadmap (below) gives you the topic-by-topic order.
+> **Our take on step 1:** at about $35 a month or $159 a year (as of late 2026; check LeetCode's own page), Premium is worth it mainly for step 5, when you have a real interview booked. Steps 2 to 4 work on the free tier, and NeetCode's free roadmap (below) gives you the topic-by-topic order.
 
 **NeetCode** solves LeetCode's biggest problem: knowing what to do next. Its free [roadmap](https://neetcode.io/roadmap) arranges the most useful problems (the "NeetCode 150") by pattern, from arrays and hashing through to graphs and dynamic programming, in an order where each topic builds on the last. Every problem links to LeetCode and has a free video explanation.
 
@@ -315,7 +303,7 @@ Everyone does, including experienced engineers. Write down the questions you rem
 Yes. Many smaller companies use practical tasks instead (see the first question). Help desk and IT support roles focus on troubleshooting and customer service, and certifications such as CompTIA A+ often help you past the first filter. [IT Support Careers and Certifications](https://github.com/ImmuneMoon/IT-Support-Careers-and-Certifications#1-the-entry-level-it-path) covers that path.
 
 ## 12. Sources
-**Challenge and project sites (checked November 2026)**
+**Challenge and project sites**
 * [Codewars](https://www.codewars.com/) and [Codewars Red pricing](https://www.codewars.com/subscription)
 * [Qualified](https://www.qualified.io/)
 * [CodinGame](https://www.codingame.com/) and [Clash of Code](https://www.codingame.com/multiplayer/clashofcode)
@@ -339,7 +327,6 @@ Yes. Many smaller companies use practical tasks instead (see the first question)
 * [Interview Cake](https://www.interviewcake.com/)
 * [Aced (formerly Exponent and Pramp)](https://www.aced.io/practice)
 * [CS50x 2022: How to Prepare for Technical Interviews](https://cs50.harvard.edu/x/2022/prepare/)
-* [Codebasil](https://codebasil.com/)
 * [Tech Interview Handbook: Blind 75 and best practice questions](https://www.techinterviewhandbook.org/best-practice-questions/)
 
 **Job market and job boards**
@@ -362,7 +349,7 @@ Yes. Many smaller companies use practical tasks instead (see the first question)
 * A Life Engineered, [Most Tech Interview Prep is GARBAGE. (From a Principal Engineer at Amazon)](https://www.youtube.com/watch?v=0Z9RW_hhUT4)
 * Fireship, [How to NOT Fail a Technical Interview](https://www.youtube.com/watch?v=1t1_a1BZ04o)
 * Joshua Fluke, [When are you ready to apply to developer Jobs?](https://www.youtube.com/watch?v=faA6pnJdck0)
-* Matty McTech, "Want to learn how to code?" (a Facebook reel, credited by name only because it needs a login)
+* Matty McTech, "Want to learn how to code?" (Facebook), a short reel on Exercism
 
 <!-- guide:end -->
 
